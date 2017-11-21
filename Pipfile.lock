@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "a0e63f8a0d1e3df046dc19b3ffbaaedfa151afc12af5a5b960ae7393952f8679"
+            "sha256": "74186310671236eb32e56fe036102d52a9e2bd5a78f4b4c21cc2fad09b1b373f"
         },
         "host-environment-markers": {
             "implementation_name": "cpython",
@@ -40,6 +40,12 @@
                 "sha256:84ab92ed1c4d4f16916e05906b6b75a6c0fb5db821cc65e70cbd64a3e2a5eaae"
             ],
             "version": "==3.0.4"
+        },
+        "confluent-kafka": {
+            "hashes": [
+                "sha256:4c34bfe8f823ee3777d93820ec6578365d2bde3cd1302cbd0e44c86b68643667"
+            ],
+            "version": "==0.11.0"
         },
         "idna": {
             "hashes": [

@@ -9,7 +9,9 @@ name = "pypi"
 
 requests = "*"
 confluent-kafka = "*"
+"lz4" = "*"
 
 
 [dev-packages]
 
+ipython = "*"

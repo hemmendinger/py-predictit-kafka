@@ -16,11 +16,8 @@ def run():
         try:
             req = get_api()
 
-        except ConnectionError:
-            error_count += 1
-        except Timeout:
-            error_count += 1
-        except HTTPError:
+        except (ConnectionError, HTTPError, Timeout) as e:
+            print(str(e))
             error_count += 1
 
         # If retries reaches a threshold, publish to an alerts topic
@@ -38,3 +35,9 @@ def get_api():
 
     return response
 
+
+def publish_callback(err, msg):
+    if err is not None:
+        pass
+    else:
+        pass

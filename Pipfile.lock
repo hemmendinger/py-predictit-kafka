@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "77ef1179f9db60f3e581534252fdeaa473fe8fd9ad9ee45d52063be5a4ac8926"
+            "sha256": "6e25abc66aaed5f6bfc02a8df3938d9547dd0ffb3bbd9791db10b013ea241eee"
         },
         "host-environment-markers": {
             "implementation_name": "cpython",
@@ -27,6 +27,12 @@
         ]
     },
     "default": {
+        "avro-python3": {
+            "hashes": [
+                "sha256:f82cf0d66189600b1e6b442f650ad5aca6c189576723dcbf6f9ce096eab81bd6"
+            ],
+            "version": "==1.8.2"
+        },
         "certifi": {
             "hashes": [
                 "sha256:244be0d93b71e93fc0a0a479862051414d0e00e16435707e5bf5000f92e04694",

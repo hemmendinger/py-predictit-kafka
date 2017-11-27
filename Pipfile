@@ -10,6 +10,7 @@ name = "pypi"
 requests = "*"
 confluent-kafka = "*"
 "lz4" = "*"
+"avro-python3" = "*"
 
 
 [dev-packages]
